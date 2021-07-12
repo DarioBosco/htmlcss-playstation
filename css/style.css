@@ -161,6 +161,10 @@ body,
 /* -------------------------------------------------- */
 /* Inizio Footer */
 
+footer > .container-fluid {
+	background: #00439c;
+	color: white;
+}
 /* Fine Footer */
 /* -------------------------------------------------- */
 
