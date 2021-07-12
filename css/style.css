@@ -5,14 +5,10 @@
 }
 /* -------------------------------------------------- */
 /* Inizio Common */
-#header-top {
-	height: 50px;
+body,
+.btn {
+	font-weight: 600;
 }
-
-#header-bottom {
-	font-weight: bold;
-}
-
 .f-12 {
 	font-size: 12px;
 }
@@ -95,7 +91,13 @@
 /* Fine Common */
 /* -------------------------------------------------- */
 /* Inizio Header */
+#header-top {
+	height: 50px;
+}
 
+#header-bottom {
+	font-weight: bold;
+}
 /* Fine Header */
 /* -------------------------------------------------- */
 /* Inizio Main */
@@ -114,9 +116,18 @@
 	border-radius: 20px;
 }
 
-#thumbnails .image-box:hover img {
+#thumbnails .thumbnail:hover img {
 	padding: 0.25rem;
 	border: 3px solid #0d6efd;
+}
+
+#showcase .thumbnail {
+	filter: opacity(0.6);
+}
+
+#showcase .thumbnail:hover {
+	filter: opacity(1);
+	border-bottom: 2px solid #0d6efd;
 }
 /* Fine Main */
 /* -------------------------------------------------- */
