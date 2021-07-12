@@ -105,7 +105,7 @@ body,
 #jumbotron > .container-fluid {
 	background-image: url(../img/jumbo-bg.png);
 	background-position: center;
-	height: 675px; Risoluzione immagine 1800x675
+	height: 675px;
 }
 
 #jumbotron button {
@@ -142,20 +142,20 @@ body,
 
 #releases > .container-fluid {
 	background-color: #1f1f1f;
-	color: white
+	color: white;
 }
 
 #ps-plus > .container-fluid {
-	background: #bebcbb
+	background: #bebcbb;
 }
 
 #ps-plus button {
-	background: #d9dadc
+	background: #d9dadc;
 }
 
 #ps-now > .container-fluid {
 	background: #161c3b;
-	color: white
+	color: white;
 }
 /* Fine Main */
 /* -------------------------------------------------- */
