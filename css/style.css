@@ -140,17 +140,22 @@ body,
 	background: #cd3d0f;
 }
 
-#releases> .container-fluid {
+#releases > .container-fluid {
 	background-color: #1f1f1f;
 	color: white
 }
 
-#ps-plus .container-fluid {
+#ps-plus > .container-fluid {
 	background: #bebcbb
 }
 
 #ps-plus button {
 	background: #d9dadc
+}
+
+#ps-now > .container-fluid {
+	background: #161c3b;
+	color: white
 }
 /* Fine Main */
 /* -------------------------------------------------- */
