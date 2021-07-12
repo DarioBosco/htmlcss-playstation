@@ -12,6 +12,86 @@
 #header-bottom {
 	font-weight: bold;
 }
+
+.f-12 {
+	font-size: 12px;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.f-16 {
+	font-size: 16px;
+}
+
+.f-18 {
+	font-size: 18px;
+}
+
+.f-20 {
+	font-size: 20px;
+}
+
+.f-22 {
+	font-size: 22px;
+}
+
+.f-24 {
+	font-size: 24px;
+}
+
+.f-26 {
+	font-size: 26px;
+}
+
+.f-28 {
+	font-size: 28px;
+}
+
+.f-30 {
+	font-size: 30px;
+}
+
+.f-32 {
+	font-size: 32px;
+}
+
+.f-34 {
+	font-size: 34px;
+}
+
+.f-36 {
+	font-size: 36px;
+}
+
+.f-38 {
+	font-size: 38px;
+}
+
+.f-40 {
+	font-size: 40px;
+}
+
+.f-42 {
+	font-size: 42px;
+}
+
+.f-44 {
+	font-size: 44px;
+}
+
+.f-46 {
+	font-size: 46px;
+}
+
+.f-48 {
+	font-size: 48px;
+}
+
+.f-50 {
+	font-size: 50px;
+}
 /* Fine Common */
 /* -------------------------------------------------- */
 /* Inizio Header */
@@ -19,6 +99,16 @@
 /* Fine Header */
 /* -------------------------------------------------- */
 /* Inizio Main */
+
+#jumbotron > .container-fluid {
+	background-image: url(../img/jumbo-bg.png);
+	background-position: center;
+	height: 675px; /* Risoluzione immagine 1800x675 */
+}
+
+#jumbotron button {
+	background: #cd3d0f;
+}
 
 /* Fine Main */
 /* -------------------------------------------------- */
