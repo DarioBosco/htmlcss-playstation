@@ -105,14 +105,15 @@ body,
 #jumbotron > .container-fluid {
 	background-image: url(../img/jumbo-bg.png);
 	background-position: center;
-	height: 675px; /* Risoluzione immagine 1800x675 */
+	height: 675px; Risoluzione immagine 1800x675
 }
 
 #jumbotron button {
 	background: #cd3d0f;
 }
 
-#thumbnails img {
+#thumbnails img,
+#releases img {
 	border-radius: 20px;
 }
 
@@ -129,6 +130,21 @@ body,
 	filter: opacity(1);
 	border-bottom: 2px solid #0d6efd;
 }
+
+#release-highlight > .container-fluid {
+	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+	background-position: center;
+}
+
+#release-highlight button {
+	background: #cd3d0f;
+}
+
+#releases> .container-fluid {
+	background-color: #1f1f1f;
+	color: white
+}
+
 /* Fine Main */
 /* -------------------------------------------------- */
 /* Inizio Footer */
