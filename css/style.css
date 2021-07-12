@@ -145,6 +145,13 @@ body,
 	color: white
 }
 
+#ps-plus .container-fluid {
+	background: #bebcbb
+}
+
+#ps-plus button {
+	background: #d9dadc
+}
 /* Fine Main */
 /* -------------------------------------------------- */
 /* Inizio Footer */
