@@ -134,6 +134,7 @@ body,
 #release-highlight > .container-fluid {
 	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #release-highlight button {
@@ -164,6 +165,16 @@ body,
 footer > .container-fluid {
 	background: #00439c;
 	color: white;
+}
+
+#country p::before {
+	content: url(../img/language-globe.svg);
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	line-height: 15px;
+	margin-right: 10px;
 }
 /* Fine Footer */
 /* -------------------------------------------------- */
